@@ -12,6 +12,7 @@
   height: 100px;
   background-color: lightblue;
 
+
 }
 
 .firstList{
@@ -30,7 +31,7 @@
 
 .firstList ul{
   display: flex;
-    justify-content: space-around;
+   justify-content: space-around;
  /* border: 1px solid black; */
 }
 
@@ -46,14 +47,58 @@ li{
 
 li a{
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
+/* .positionAbout{
+  position: absolute;
+  left: 50%;
+} */
+/* .positionHelp{
 
+} */
 
 button{
   padding: 10px;
   border-radius: 10px;
   font-size: 15px;
+}
+
+
+.listato{
+  display: none;
+  position: absolute;
+  left: 45%;
+  margin-top: 20px;
+  height: 300px;
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.tendina{
+  margin-top: 30px;
+  display: block;
+}
+
+.contenitore-flex{
+  display: flex;
+}
+
+
+.flex{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 0 auto;
+}
+
+.flex li{
+  margin: 10px 0;
+}
+
+.container-main{
+  height: calc(100vh - 100px);
 }

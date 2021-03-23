@@ -8,8 +8,10 @@ function close() {
 
 function hoverDropped(){
   $('.vociMenu').hover(function(){
-  $('.listato').removeClass('tendina');
-  $(this).find('.listato').addClass('tendina');
+
+    $('.listato').removeClass('tendina');   // per chiudere le tendine, all'apertura delle altre
+    $(this).find('.listato').addClass('tendina');
+
 
   })
 

@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 
 
 }
@@ -26,7 +26,7 @@
 .thirdList{
   display: flex;
   justify-content: space-around;
-  width: 16%;
+  width: 22%;
 }
 
 .firstList ul{
@@ -39,6 +39,7 @@
   display: flex;
   justify-content: space-around;
    /* border: 1px solid black; */
+   position: relative;
 }
 
 li{
@@ -47,39 +48,36 @@ li{
 
 li a{
   text-decoration: none;
-  color: black;
-  font-size: 25px;
+  color:grey;
+  font-size: 15px;
 }
 
-/* .positionAbout{
-  position: absolute;
-  left: 50%;
-} */
-/* .positionHelp{
 
-} */
 
 button{
-  padding: 10px;
+  padding: 12px 20px;
   border-radius: 10px;
   font-size: 15px;
+  border: 0;
 }
 
 
 .listato{
   display: none;
   position: absolute;
-  left: 45%;
   margin-top: 20px;
-  height: 300px;
-  width: 200px;
-  border: 1px solid grey;
+  min-height: 200px;
+  width: 120px;
+  border: 1px solid lightgrey;
   border-radius: 10px;
   margin: 0 auto;
+  background-color: white;
+
+
 }
 
 .tendina{
-  margin-top: 30px;
+  margin-top: 10px;
   display: block;
 }
 
@@ -91,8 +89,8 @@ button{
 .flex{
  display: flex;
  flex-direction: column;
- align-items: center;
- margin: 0 auto;
+ align-items:flex-start;
+ margin: 0 10px;
 }
 
 .flex li{
@@ -101,4 +99,13 @@ button{
 
 .container-main{
   height: calc(100vh - 100px);
+}
+
+.textBtn{
+  color: white;
+  background-color:black;
+}
+
+a:hover{
+  color: black;
 }
